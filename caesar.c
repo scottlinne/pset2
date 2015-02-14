@@ -16,8 +16,6 @@ encrypt a text string by k characters
 int main(int argc, char* argv[])
 {
 
-//int k = atoi(
-
 
 if(argc !=2 || atoi(argv[1]) < 0 )
 {
@@ -27,8 +25,6 @@ if(argc !=2 || atoi(argv[1]) < 0 )
 
 
 int k = atoi(argv[1]);
-
-printf("Please enter plaintext string to cipher\n");
 char* p = GetString();
 
 
